@@ -12,6 +12,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pgonzlezfinanceappp.ui.theme.PGonzálezFinanceApppTheme
+import com.example.pgonzlezfinanceappp.models.User
+import com.example.pgonzlezfinanceappp.models.Transaction
+import com.example.pgonzlezfinanceappp.models.SummaryCard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
