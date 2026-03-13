@@ -104,7 +104,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             }
         }
 
-        // tarjetds de resumen
+        // tarjetas de resumen
         item {
             Spacer(modifier = Modifier.height(20.dp))
             Row(
@@ -159,7 +159,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             }
         }
 
-        // Transaccioks header
+        // Transacciones header
         item {
             Spacer(modifier = Modifier.height(24.dp))
             Row(
