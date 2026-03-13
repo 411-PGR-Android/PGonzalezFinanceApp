@@ -62,7 +62,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             .padding(innerPadding)
             .padding(horizontal = 20.dp, vertical = 10.dp)
     ) {
-        // 1. Header
+        //header
         item {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -104,7 +104,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             }
         }
 
-        // 2. Tarjetas resumen
+        // tarjetds de resumen
         item {
             Spacer(modifier = Modifier.height(20.dp))
             Row(
@@ -159,7 +159,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             }
         }
 
-        // 3. Transactions header
+        // Transaccioks header
         item {
             Spacer(modifier = Modifier.height(24.dp))
             Row(
@@ -181,7 +181,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             Spacer(modifier = Modifier.height(8.dp))
         }
 
-        // 4. Lista de transacciones
+        // Lista de transacciones
         items(transactionList) { transaction ->
             TransactionItem(transaction)
             HorizontalDivider(color = Color.LightGray, thickness = 0.5.dp)
